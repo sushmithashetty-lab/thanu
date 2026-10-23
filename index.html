@@ -1,0 +1,448 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sushmitha's personal portfolio - BCA Student and Aspiring Full-Stack Developer">
+  <title>Thanu | Developer Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="navbar">
+    <a href="#home" class="logo">S<span>.</span></a>
+
+    <button class="menu-toggle" id="menuToggle"
+      aria-label="Open navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#education" class="nav-link">Education</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#contact" class="nav-link nav-contact">Contact Me ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero section" id="home">
+      <div class="hero-content">
+        <div class="availability">
+          <span class="status-dot"></span>
+          BCA STUDENT · OPEN TO LEARNING
+        </div>
+
+        <p class="eyebrow">HELLO, I'M</p>
+
+        <h1>Thanu D<span class="accent">.</span></h1>
+
+        <h2>BCA Student &amp;<br>
+          <span class="gradient-text">Aspiring Full-Stack Developer</span>
+        </h2>
+
+        <p class="hero-description">
+          I am a passionate computer applications student from Mandya,
+          Karnataka, exploring web development and building my skills
+          one project at a time.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">
+            Explore My Work <span>↗</span>
+          </a>
+          <a href="#contact" class="btn btn-outline">
+            Let's Connect
+          </a>
+        </div>
+
+        <div class="social-links">
+          <a href="https://github.com/YOUR_USERNAME"
+             target="_blank" rel="noopener noreferrer"
+             class="social-link">GitHub ↗</a>
+          <span class="social-divider">/</span>
+          <a href="https://www.linkedin.com/in/YOUR_USERNAME/"
+             target="_blank" rel="noopener noreferrer"
+             class="social-link">LinkedIn ↗</a>
+          <span class="social-divider">/</span>
+          <a href="mailto:suahmithashetty096@gmail.com"
+             class="social-link">Email ↗</a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+
+        <div class="photo-frame">
+          <div class="photo-top">
+            <span class="photo-dot"></span>
+            <span class="photo-dot"></span>
+            <span class="photo-dot"></span>
+            <span class="photo-label">PROFILE.JPG</span>
+          </div>
+
+          <img src="profile.jpg" alt="Sushmitha's profile picture"
+               class="profile-image"
+               onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+
+          <div class="photo-fallback" style="display:none;">
+            <span>S</span>
+            <small>Add your profile.jpg</small>
+          </div>
+
+          <div class="photo-caption">
+            <span class="caption-icon">✳</span>
+            <div>
+              <strong>Learning. Building. Growing.</strong>
+              <small>My journey into technology</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="floating-card floating-code">
+          <span class="float-icon">&lt;/&gt;</span>
+          <div>
+            <strong>Web Development</strong>
+            <small>Always learning</small>
+          </div>
+        </div>
+
+        <div class="floating-card floating-location">
+          <span class="location-icon">⌖</span>
+          <div>
+            <strong>Mandya, India</strong>
+            <small>Based in Karnataka</small>
+          </div>
+        </div>
+
+        <div class="decorative-star star-one">✳</div>
+        <div class="decorative-star star-two">✦</div>
+      </div>
+
+      <a href="#about" class="scroll-indicator">
+        <span class="scroll-line"></span>
+        SCROLL TO EXPLORE
+      </a>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section about-section" id="about">
+      <div class="section-heading">
+        <span class="section-number">01 / ABOUT</span>
+        <h2>A little about <span class="gradient-text">me.</span></h2>
+        <p>Curiosity is where every great project begins.</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-card about-main">
+          <span class="card-symbol">✳</span>
+          <h3>Turning curiosity<br>into code.</h3>
+          <p>
+            I'm Sushmitha, a third-year Bachelor of Computer Applications
+            student at STG First Grade College, affiliated with Mandya
+            University. I enjoy learning about technology, creating
+            websites and understanding how applications work.
+          </p>
+          <p>
+            My current goal is to strengthen my programming fundamentals,
+            develop practical projects and grow into a confident
+            full-stack developer.
+          </p>
+        </div>
+
+        <div class="about-card detail-card">
+          <span class="detail-icon">⌘</span>
+          <span class="detail-label">CURRENT FOCUS</span>
+          <h3>Web Development</h3>
+          <p>Learning frontend interfaces and backend fundamentals.</p>
+          <div class="mini-tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+        </div>
+
+        <div class="about-card detail-card">
+          <span class="detail-icon">◎</span>
+          <span class="detail-label">BASED IN</span>
+          <h3>Mandya, Karnataka</h3>
+          <p>Building my skills and looking for opportunities to learn.</p>
+          <a href="#contact" class="text-link">Get in touch ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="section education-section" id="education">
+      <div class="section-heading">
+        <span class="section-number">02 / EDUCATION</span>
+        <h2>My learning <span class="gradient-text">journey.</span></h2>
+        <p>The foundation behind my interest in technology.</p>
+      </div>
+
+      <div class="education-card">
+        <div class="education-icon">🎓</div>
+        <div class="education-content">
+          <span class="education-year">CURRENT EDUCATION</span>
+          <h3>Bachelor of Computer Applications (BCA)</h3>
+          <p class="college-name">STG First Grade College</p>
+          <p class="education-meta">Mandya University · Mandya, Karnataka</p>
+          <p class="education-description">
+            Developing knowledge of computer applications, programming,
+            databases and web technologies.
+          </p>
+        </div>
+        <span class="year-badge">III Year</span>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section skills-section" id="skills">
+      <div class="section-heading">
+        <span class="section-number">03 / SKILLS</span>
+        <h2>Tools in my <span class="gradient-text">toolkit.</span></h2>
+        <p>Technologies and tools I am learning and practising.</p>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-card">
+          <span class="skill-number">01</span>
+          <div class="skill-icon html-icon">&lt;/&gt;</div>
+          <h3>HTML &amp; CSS</h3>
+          <p>Page structure, styling and responsive layouts.</p>
+          <span class="skill-category">FRONTEND</span>
+        </article>
+
+        <article class="skill-card">
+          <span class="skill-number">02</span>
+          <div class="skill-icon js-icon">JS</div>
+          <h3>JavaScript</h3>
+          <p>Interactive elements and basic programming logic.</p>
+          <span class="skill-category">PROGRAMMING</span>
+        </article>
+
+        <article class="skill-card">
+          <span class="skill-number">03</span>
+          <div class="skill-icon node-icon">N</div>
+          <h3>Node.js &amp; Express</h3>
+          <p>Learning server-side programming and APIs.</p>
+          <span class="skill-category">BACKEND</span>
+        </article>
+
+        <article class="skill-card">
+          <span class="skill-number">04</span>
+          <div class="skill-icon db-icon">▤</div>
+          <h3>MongoDB</h3>
+          <p>Learning database concepts and data management.</p>
+          <span class="skill-category">DATABASE</span>
+        </article>
+
+        <article class="skill-card">
+          <span class="skill-number">05</span>
+          <div class="skill-icon office-icon">W</div>
+          <h3>MS Office</h3>
+          <p>Microsoft Word, Excel and PowerPoint.</p>
+          <span class="skill-category">PRODUCTIVITY</span>
+        </article>
+
+        <article class="skill-card">
+          <span class="skill-number">06</span>
+          <div class="skill-icon learn-icon">✦</div>
+          <h3>Problem Solving</h3>
+          <p>Practising logical thinking and learning new concepts.</p>
+          <span class="skill-category">PERSONAL GROWTH</span>
+        </article>
+      </div>
+      <p class="skills-note">
+        Note: This list represents learning areas. Update it to reflect
+        the technologies you can confidently use.
+      </p>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section projects-section" id="projects">
+      <div class="section-heading">
+        <span class="section-number">04 / PROJECTS</span>
+        <h2>Things I'm <span class="gradient-text">building.</span></h2>
+        <p>A few projects to showcase my learning and practice.</p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-preview preview-portfolio">
+            <div class="preview-window">
+              <div class="preview-bar">
+                <span></span><span></span><span></span>
+              </div>
+              <div class="preview-content">
+                <div class="preview-heading"></div>
+                <div class="preview-line"></div>
+                <div class="preview-line short"></div>
+                <div class="preview-button"></div>
+              </div>
+            </div>
+            <span class="preview-label">PROJECT 01</span>
+          </div>
+          <div class="project-info">
+            <div class="project-type">PERSONAL WEBSITE</div>
+            <h3>Personal Portfolio</h3>
+            <p>A responsive website presenting my education, skills,
+              interests and contact information.</p>
+            <div class="project-tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <a href="#contact" class="project-link">
+              Discuss this project <span>↗</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-preview preview-database">
+            <div class="database-illustration">
+              <div class="db-cylinder"><span>DATABASE</span></div>
+              <div class="db-lines">
+                <span></span><span></span><span></span>
+              </div>
+            </div>
+            <span class="preview-label">PROJECT 02</span>
+          </div>
+          <div class="project-info">
+            <div class="project-type">DATABASE APPLICATION</div>
+            <h3>College Database System</h3>
+            <p>A database project concept for organizing student,
+              course and college information.</p>
+            <div class="project-tags">
+              <span>DBMS</span><span>SQL</span><span>Database Design</span>
+            </div>
+            <a href="#contact" class="project-link">
+              Discuss this project <span>↗</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-preview preview-blog">
+            <div class="blog-illustration">
+              <div class="blog-top">mini blog<span>✳</span></div>
+              <div class="blog-post">
+                <div class="blog-avatar"></div>
+                <div class="blog-text"><span></span><span></span></div>
+              </div>
+              <div class="blog-post">
+                <div class="blog-avatar second"></div>
+                <div class="blog-text"><span></span><span></span></div>
+              </div>
+            </div>
+            <span class="preview-label">PROJECT 03</span>
+          </div>
+          <div class="project-info">
+            <div class="project-type">WEB APPLICATION</div>
+            <h3>Mini Blog</h3>
+            <p>A practice application for creating posts and displaying
+              a simple feed of user content.</p>
+            <div class="project-tags">
+              <span>JavaScript</span><span>Node.js</span><span>CSS</span>
+            </div>
+            <a href="#contact" class="project-link">
+              Discuss this project <span>↗</span>
+            </a>
+          </div>
+        </article>
+      </div>
+
+      <p class="project-disclaimer">
+        These are portfolio showcase entries. Add repository links,
+        screenshots and live demos after confirming each project is ready.
+      </p>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact-section" id="contact">
+      <div class="contact-grid">
+        <div class="contact-intro">
+          <span class="section-number">05 / CONTACT</span>
+          <h2>Have an idea?<br><span class="gradient-text">Let's talk.</span></h2>
+          <p>
+            Want to connect, discuss a project or share a learning
+            opportunity? Send me a message.
+          </p>
+
+          <div class="contact-detail">
+            <span class="contact-detail-icon">✉</span>
+            <div>
+              <small>EMAIL ME</small>
+              <a href="mailto:suahmithashetty096@gmail.com">
+                suahmithashetty096@gmail.com
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-detail">
+            <span class="contact-detail-icon">⌖</span>
+            <div>
+              <small>LOCATION</small>
+              <p>Mandya, Karnataka, India</p>
+            </div>
+          </div>
+
+          <div class="contact-socials">
+            <a href="https://github.com/YOUR_USERNAME"
+               target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+            <a href="https://www.linkedin.com/in/YOUR_USERNAME/"
+               target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+          <h3>Send a message<span class="accent">.</span></h3>
+          <p class="form-subtitle">I'll be happy to hear from you.</p>
+
+          <label for="name">Your name</label>
+          <input type="text" id="name" name="name"
+                 placeholder="Enter your name" maxlength="100" required>
+
+          <label for="email">Email address</label>
+          <input type="email" id="email" name="email"
+                 placeholder="you@example.com" maxlength="150" required>
+
+          <label for="subject">Subject <span>(optional)</span></label>
+          <input type="text" id="subject" name="subject"
+                 placeholder="What is this about?" maxlength="150">
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5"
+                    placeholder="Write your message here..."
+                    maxlength="3000" required></textarea>
+
+          <button type="submit" class="btn btn-primary submit-btn">
+            Send Message <span>↗</span>
+          </button>
+
+          <p class="form-status" id="formStatus" role="status"
+             aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <a href="#home" class="logo">S<span>.</span></a>
+    <p>Designed &amp; built by Sushmitha</p>
+    <p class="footer-copy">© <span id="currentYear"></span> · Made with curiosity.</p>
+    <a href="#home" class="back-top">Back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
